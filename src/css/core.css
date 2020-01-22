@@ -1,0 +1,10 @@
+.wrap {
+    max-width: 1920px;
+    min-width: 350px;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 150px;
+}

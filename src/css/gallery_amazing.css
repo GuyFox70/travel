@@ -1,0 +1,64 @@
+.amazing-places__gallery-amazing {
+    width: 62%;
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+.gallery-amazing__slider {
+   display: flex;
+   margin-left: -1%;
+}
+
+.gallery-amazing__image {
+    height: 83.5%;
+}
+
+.gallery-amazing__image:not(:last-child) {
+    margin-right: 3%;
+}
+
+.gallery-amazing__image:not(:nth-child(2n)) {
+    margin-top: 75px;
+}
+
+.gallery-amazing__image > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-amazing__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery-amazing__image__duration {
+    font-family: 'NunitoSansSemiBold';
+    font-size: 24px;
+    line-height: 42px;
+    letter-spacing: .42px;
+    color: #b8b8b8;
+}
+
+.gallery-amazing__arrows {
+    margin: 80px 0 0 17%;
+}
+
+.gallery-amazing__arrows__left {
+    width: 39px;
+    height: 28px;
+    fill-rule: evenodd;
+    fill: rgb(160, 160, 160);
+    margin-right: 65px;
+    cursor: pointer;
+}
+
+.gallery-amazing__arrows__right {
+    width: 39px;
+    height: 28px;
+    fill-rule: evenodd;
+    fill: rgb(160, 160, 160);
+    opacity: 0.5;
+    cursor: pointer;
+}

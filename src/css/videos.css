@@ -1,0 +1,98 @@
+.videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px 0 0 0;
+}
+
+.videos__subheading {
+    text-align: center;
+    color: #091e40;
+
+    font-family: 'NunitoSansSemiBold';
+    font-size: 50px;
+    line-height: 72px;
+    letter-spacing: 1.44px;
+}
+
+.videos__line {
+    width: 4%;
+    height: 6px;
+    fill-rule: evenodd;
+    fill: rgb(57, 132, 243);
+    margin: 40px 0;
+}
+
+.videos__text {
+    width: 71.7%;
+    text-align: center;
+    margin-bottom: 110px;
+
+    font-family: 'NunitoSansRegular';
+    font-size: 22px;
+    line-height: 42px;
+    letter-spacing: .42px;
+}
+
+.video__rollers {
+    display: flex;
+    justify-content: space-between;
+    width: 84.3%;
+    margin-bottom: 20px;
+}
+
+.video__rollers__big {
+    width: 67.5%;
+    position: relative;
+}
+
+.video__rollers__big > video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rollers__big__play {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.rollers__big__play > svg{
+    width: 85px;
+    height: 86px;
+    fill-rule: evenodd;
+    fill: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.rollers__big__title {
+    position: absolute;
+    bottom: 12%;
+    left: 5%;
+    color: #fff;
+
+    font-family: 'NunitoSansSemiBold';
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: 0.46px;
+}
+
+.rollers__big__duration {
+    position: absolute;
+    bottom: 4%;
+    left: 5%;
+    color: #fff;
+
+    font-family: 'NunitoSansRegular';
+    font-size: 26px;
+    line-height: 46px;
+    letter-spacing: 0.46px;
+}

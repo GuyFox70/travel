@@ -1,0 +1,48 @@
+.video__rollers__small {
+    width: 31.5%;
+    height: 620px;
+    overflow: auto;
+    padding: 1% 0 1% 1%;
+    box-sizing: border-box;
+}
+
+.rollers__small__items {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rollers__small__items:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.rollers__small__items .picture >img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.rollers__small__items .info {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.rollers__small__items .info > p:first-child {
+    font-family: 'NunitoSansSemiBold';
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: .32px;
+    color: #091e40;
+}
+
+.rollers__small__items .info > p:last-child {
+    font-family: 'NunitoSansSemiBold';
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: .35px;
+    color: #7e899b;
+}

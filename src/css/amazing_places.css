@@ -1,0 +1,55 @@
+.amazing-places {
+    width: 91.7%;
+    margin-right: 8.3%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.amazing-places__description-places {
+    width: 38%;
+    padding: 0 1%;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.amazing-places__description-places__subheading {
+    font-family: 'NunitoSansSemiBold';
+    font-size: 45px;
+    line-height: 62px;
+    letter-spacing: 1.2px;
+    color: #091e40;
+    margin: 35px 0;
+}
+
+.amazing-places__description-places__line {
+    width: 13.4%;
+    height: 6px;
+    fill-rule: evenodd;
+    fill: rgb(57, 132, 243);
+}
+
+.amazing-places__description-places__text {
+    font-family: 'NunitoSansRegular';
+    font-size: 20px;
+    line-height: 42px;
+    letter-spacing: .42px;
+    color: #d0d1d4;
+    margin-top: 35px;
+}
+
+.amazing-places__description-places__explore {
+    width: 32%;
+    height: 60px;
+    border: 0;
+    outline: 0;
+    background: #3984f3;
+    margin-top: 45px;
+    cursor: pointer;
+
+    font-family: 'NunitoSansSemiBold';
+    font-size: 23px;
+    line-height: 42px;
+    letter-spacing: .42px;
+    color: #fff;
+}

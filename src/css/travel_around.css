@@ -1,0 +1,79 @@
+.header-travel-around {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.header-travel-around__text {
+    width: 46.6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.header-travel-around__text__title {
+    width: 60%;
+    margin-left: 18%;
+    color: #091e40;
+    margin-bottom: 30px;
+
+    font-family: 'NunitoSansExtraBold';
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 3.2px;
+}
+
+.header-travel-around__text__description {
+    width: 60%;
+    margin-left: 18%;
+    color: #c0c2c7;
+
+    font-family: 'NunitoSansRegular';
+    font-size: 22px;
+    line-height: 35px;
+    letter-spacing: .4px;
+}
+
+.header-travel-around__text__button {
+    width: 27.4%;
+    height: 60px;
+    margin-left: 18%;
+    outline: 0;
+    border: 0;
+    background: #3984f3;
+    color: #fff;
+    margin-top: 8%;
+    margin-bottom: -6.5%;
+    cursor: pointer;
+
+    font-family: 'NunitoSemiBold';
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: .4px;
+}
+
+.header-travel-around__text__button:hover {
+    color: #3984f3;
+    background: #fff;
+    transition: all .3s ease;
+}
+
+.header-travel-around__text__bush {
+    width: 28%;
+}
+
+.header-travel-around__text__bush > img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-travel-around__women {
+    width: 53.4%;
+    margin-bottom: 7%;
+}
+
+.header-travel-around__women > img {
+    width: 100%;
+    height: 100%;
+}

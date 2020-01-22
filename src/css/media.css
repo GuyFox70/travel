@@ -1,0 +1,620 @@
+@media screen and (min-width: 1920px) {
+    .wrap {
+        margin: auto;
+    }
+
+    .header-travel-around__text__title {
+        font-size: 75px;
+    }
+
+
+
+
+    .amazing-places__description-places__subheading {
+        font-size: 50px;
+        line-height: 62px;
+        margin: 43px 0;
+    }
+
+    .amazing-places__description-places__text {
+        font-size: 22px;
+        line-height: 42px;
+        margin-top: 45px;
+    }
+}
+
+@media screen and (max-width: 1520px) {
+    .header__menu {
+        width: 50%;
+    }
+
+
+
+
+
+
+
+    .header-travel-around__text__title {
+        width: 70%;
+      
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .header-travel-around__text__description {
+        width: 80%;
+
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .header-travel-around__text__button {
+        width: 35%;
+        line-height: 35px;
+    }
+
+
+
+
+
+    .amazing-places {
+        width: 98%;
+        margin-bottom: 20px;
+    }
+
+    .amazing-places__description-places__subheading {
+        font-size: 40px;
+        line-height: 52px;
+        margin: 33px 0;
+    }
+
+    .amazing-places__description-places__text {
+        font-size: 20px;
+        line-height: 42px;
+        margin-top: 33px;
+    }
+}
+
+@media screen and (max-width: 1320px) { 
+    .header__menu {
+        width: 55%;
+    }
+
+
+
+
+
+
+
+    .header-travel-around__text__title {
+        width: 70%;
+      
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .header-travel-around__text__description {
+        width: 80%;
+
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .header-travel-around__text__button {
+        width: 35%;
+    
+        line-height: 35px;
+    }
+
+
+
+
+
+    .amazing-places {
+        width: 98%;
+        margin: 0 auto 20px auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .amazing-places__gallery-amazing {
+        width: 82%;
+        overflow: hidden;
+    }
+
+    .amazing-places__description-places {
+        width: 80%;
+    }
+
+    .amazing-places__description-places__subheading {
+        font-size: 40px;
+        line-height: 52px;
+        margin: 33px 0;
+    }
+
+    .amazing-places__description-places__text {
+        font-size: 20px;
+        line-height: 42px;
+        margin-top: 33px;
+    }
+
+    .gallery-amazing__slider {
+        display: flex;
+        margin-left: 0;
+     }
+
+    .gallery-amazing__arrows {
+        margin: 80px auto 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .gallery-amazing__arrows__left {
+        margin-right: 0;
+    }
+
+    .gallery-amazing__wrap {
+        display: block;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    .gallery-amazing__image__duration {
+        font-size: 22px;
+        line-height: 42px;
+    }
+
+
+
+
+    .videos {
+        margin: 100px 0 0 0;
+    }
+
+    .videos__subheading {
+        font-size: 45px;
+        line-height: 72px;
+        letter-spacing: 1.44px;
+    }
+
+    .videos__line {
+        width: 7%;
+        margin: 40px 0;
+    }
+
+    .videos__text {
+        width: 71.7%;
+        margin-bottom: 110px;
+    
+        font-size: 20px;
+        line-height: 42px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header__logo-menu {
+        height: 45px;
+    }
+    
+    .header__menu {
+        width: 61.25%;
+    }
+    
+    .header__menu__item > a {
+        font-size: 18px;
+    }
+ 
+    .header__sing-in {
+        width: 15%;
+        font-size: 18px;
+    }
+
+
+
+
+    .header-travel-around {
+        margin-top: 125px;
+    }
+
+    .header-travel-around__text__title {
+        width: 90%;
+        margin-bottom: 20px;
+      
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .header-travel-around__text__description {
+        width: 80%;
+
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .header-travel-around__text__button {
+        width: 35%;
+        height: 40px;
+        margin-top: 5%;
+        margin-bottom: -6.5%;
+    
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+
+
+
+
+
+    main {
+        margin-top: 100px;
+    }
+
+    .amazing-places {
+        width: 98%;
+        margin: 0 auto 20px auto;
+    }
+
+    .amazing-places__gallery-amazing {
+        width: 92%;
+        overflow: hidden;
+    }
+
+    .gallery-amazing__arrows {
+        margin: 50px auto 0 auto;
+    }
+
+
+
+
+
+    .videos__text {
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .header__logo-menu {
+        width: 98%;
+        height: 40px;
+    }
+
+
+
+
+
+    .header-travel-around {
+        margin-top: 70px;
+    }
+    
+    .header-travel-around__text {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 1%;
+        box-sizing: border-box;
+    }
+
+    .header-travel-around__text__title {
+        width: 95%;
+        margin: 0 0 30px 0;
+      
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .header-travel-around__text__description {
+        width: 95%;
+        margin: 0;
+
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    .header-travel-around__text__button {
+        width: 45%;
+        height: 30px;
+        margin: 8% 0 0 0;
+
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .header-travel-around__text__bush {
+        display: none;
+    }
+
+
+
+
+
+
+    main {
+        margin-top: 90px;
+    }
+
+    .amazing-places {
+        width: 98%;
+        margin: 0 auto 20px auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .amazing-places__gallery-amazing {
+        width: 99%;
+        margin: auto;
+    }
+
+    .amazing-places__description-places {
+        width: 95%;
+    }
+
+    .amazing-places__description-places__subheading {
+        font-size: 40px;
+        line-height: 52px;
+        margin: 23px 0;
+    }
+    
+    .amazing-places__description-places__text {
+        font-size: 20px;
+        line-height: 42px;
+        margin-top: 23px;
+    }
+    
+    .amazing-places__description-places__explore {
+        width: 42%;
+        height: 50px;
+        margin-top: 35px;
+        
+        font-size: 20px;
+        line-height: 35px;
+    }
+    
+    .gallery-amazing__image:first-child {
+        display: none;
+    }
+    
+    .gallery-amazing__image:last-child {
+        display: none;
+    }
+    
+    .gallery-amazing__slider {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .gallery-amazing__image:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .gallery-amazing__arrows {
+        display: none;
+    }
+
+
+
+
+
+
+    .videos__subheading {
+        font-size: 45px;
+        line-height: 52px;
+        letter-spacing: 1.44px;
+    }
+
+    .videos__line {
+        width: 10%;
+    }
+
+    .videos__text {
+        width: 95%;
+        margin-bottom: 110px;
+    
+        font-size: 18px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .wrap {
+        padding-top: 15px;
+        box-sizing: border-box;
+    }
+
+    .header__logo-menu {
+        width: 98%;
+        height: 35px;
+    }
+    
+    .header__menu {
+        width: 65%;
+    }
+    
+    .header__menu__item > a {
+        font-size: 15px;
+    }
+ 
+    .header__sing-in {
+        width: 15%;
+        font-size: 13px;
+    }
+
+
+
+
+
+    .header-travel-around {
+        margin-top: 50px;
+    }
+
+    .header-travel-around__text {
+        width: 100%;
+    }
+
+    .header-travel-around__text__title {
+        width: 90%;
+        margin: 0 auto 10px auto;
+        text-align: center;
+      
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .header-travel-around__text__description {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .header-travel-around__text__button {
+        width: 40%;
+        height: 30px;
+        margin: 4% auto 0 auto;
+    
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .header-travel-around__women {
+        display: none;
+    }
+
+
+
+
+
+
+    main {
+        margin-top: 70px;
+    }
+
+    .gallery-amazing__image__duration {
+        font-size: 17px;
+        line-height: 32px;
+    }
+
+    .gallery-amazing__image {
+        width: 90%;
+    }
+
+    .amazing-places__description-places__subheading {
+        font-size: 25px;
+        line-height: 42px;
+        margin: 20px 0;
+    }
+
+    .amazing-places__description-places__text {
+        font-size: 15px;
+        line-height: 32px;
+        margin-top: 20px;
+    }
+
+    .amazing-places__description-places__explore {
+        width: 42%;
+        height: 40px;
+        margin-top: 35px;
+        
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .wrap {
+        padding-top: 15px;
+        box-sizing: border-box;
+    } 
+
+    .header__logo-menu {
+        width: 98%;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .header__logo {
+        width: 25%;
+        order: 1;
+    }
+
+    .header__logo__image {
+        background-position: center;
+    }
+    
+    .header__menu {
+        width: 100%;
+        margin-top: 25px;
+        order: 3;
+    }
+    
+    .header__sing-in {
+        width: 20%;
+        height: 30px;
+        order: 1;
+        margin-top: -2px;
+    }
+
+
+
+
+
+    .header-travel-around {
+        margin-top: 100px;
+    }
+
+    .header-travel-around__text__title {
+        width: 90%;
+        margin: 0 auto 5px auto;
+        text-align: center;
+      
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .header-travel-around__text__description {
+        width: 80%;
+        text-align: center;
+        margin: auto;
+
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .header-travel-around__text__button {
+        width: 50%;
+        height: 25px;
+        margin: 10px auto 0 auto;
+    
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+
+
+
+
+    .videos__subheading {
+        font-size: 30px;
+        line-height: 52px;
+        letter-spacing: 1.44px;
+    }
+
+    .videos__line {
+        width: 12%;
+    }
+
+    .videos__text {
+        width: 95%;
+    
+        font-size: 18px;
+        line-height: 38px;
+    }
+}
