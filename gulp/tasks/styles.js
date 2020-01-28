@@ -7,6 +7,7 @@ const configCss = [
     './src/css/amazing_places.css',
     './src/css/videos.css',
     './src/css/small_video.css',
+    './src/css/travel_categories.css',
     './src/css/media.css'
 ]
 

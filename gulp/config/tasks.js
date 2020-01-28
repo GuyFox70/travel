@@ -9,5 +9,6 @@ module.exports = [
     './gulp/tasks/normalize.js',
     './gulp/tasks/watch.js',
     './gulp/tasks/video.js',
-    './gulp/tasks/svg.js'
+    './gulp/tasks/svg.js',
+    './gulp/tasks/library.js'
 ];

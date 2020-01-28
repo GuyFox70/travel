@@ -1,7 +1,6 @@
 .video__rollers__small {
     width: 31.5%;
-    height: 620px;
-    overflow: auto;
+    overflow-y: scroll;
     padding: 1% 0 1% 1%;
     box-sizing: border-box;
 }
@@ -10,6 +9,8 @@
     width: 95%;
     display: flex;
     justify-content: space-between;
+    padding: 2% 2% 2% 2%;
+    box-sizing: border-box;
 }
 
 .rollers__small__items:not(:last-child) {
@@ -33,7 +34,7 @@
 
 .rollers__small__items .info > p:first-child {
     font-family: 'NunitoSansSemiBold';
-    font-size: 26px;
+    font-size: 23px;
     line-height: 32px;
     letter-spacing: .32px;
     color: #091e40;
@@ -45,4 +46,8 @@
     line-height: 35px;
     letter-spacing: .35px;
     color: #7e899b;
+}
+
+.active {
+    background-color: #f0f0f0;
 }

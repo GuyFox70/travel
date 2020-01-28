@@ -1,0 +1,33 @@
+.categories__subheading {
+    display: block;
+    text-align: center;
+    margin: 190px 0 0 0;
+    color: #091e40;
+
+    font-family: 'NunitoSansSemiBold';
+    font-size: 50px;
+    line-height: 62px;
+    letter-spacing: 1.2px;
+}
+
+.categories__line {
+    display: block;
+    width: 4%;
+    height: 6px;
+    fill-rule: evenodd;
+    fill: rgb(57, 132, 243);
+    margin: 40px auto;
+}
+
+.categories__text {
+    display: block;
+    width: 80%;
+    margin: 0 auto 120px auto;
+    text-align: center;
+    color: #9d9fa6;
+
+    font-family: 'NunitoSansRegular';
+    font-size: 23px;
+    line-height: 42px;
+    letter-spacing: .42px;
+}
