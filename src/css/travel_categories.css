@@ -31,3 +31,74 @@
     line-height: 42px;
     letter-spacing: .42px;
 }
+
+.photo__slider {
+    display: flex;
+}
+
+.photo__slider__items {
+    position: relative;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.photo__slider__items:hover {
+    transform: translateY(-50px);
+    box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+    transition: all .5s ease;
+}
+
+.photo__slider__items:not(:last-child) {
+    margin-right: 2%;
+}
+
+.photo__slider__items > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.photo__slider__items > p {
+   position: absolute;
+   bottom: 4%;
+   left: 3%;
+   z-index: 2;
+
+   font-family: 'NunitoSansRegular';
+   font-size: 28px;
+   line-height: 46px;
+   letter-spacing: .46px;
+   color: #fff;
+}
+
+.arrows {
+    margin: 100px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.arrows__left,
+.arrows__right {
+    width: 39px;
+    height:28px;
+    fill-rule: evenodd;
+}
+
+.arrows__right {
+    fill: rgb(236, 236, 236);
+}
+
+.arrows__left {
+    margin-right: 5%;
+    fill: rgb(160, 160, 160);
+}
+
+.photo__slider__items .curtain {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: linear-gradient(to top, rgba(62,78,84,.9) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 50%);
+}
