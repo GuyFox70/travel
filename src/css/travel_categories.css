@@ -33,7 +33,9 @@
 }
 
 .photo__slider {
+    width: 130%;
     display: flex;
+    margin-left: -15%;
 }
 
 .photo__slider__items {
@@ -65,7 +67,7 @@
    z-index: 2;
 
    font-family: 'NunitoSansRegular';
-   font-size: 28px;
+   font-size: 26px;
    line-height: 46px;
    letter-spacing: .46px;
    color: #fff;
@@ -82,15 +84,11 @@
     width: 39px;
     height:28px;
     fill-rule: evenodd;
-}
-
-.arrows__right {
-    fill: rgb(236, 236, 236);
+    fill: rgb(160, 160, 160);
 }
 
 .arrows__left {
     margin-right: 5%;
-    fill: rgb(160, 160, 160);
 }
 
 .photo__slider__items .curtain {

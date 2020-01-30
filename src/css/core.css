@@ -3,6 +3,7 @@
     min-width: 350px;
     padding-top: 25px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 main {
