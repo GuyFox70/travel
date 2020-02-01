@@ -1,0 +1,35 @@
+.experience {
+    margin-top: 260px;
+}
+
+.experience__subheading {
+    text-align: center;
+    color: #091e40;
+
+    font-family: 'NunitoSansSemiBold';
+    font-size: 50px;
+    line-height: 62px;
+    letter-spacing: 1.24px;
+}
+
+.experience__line {
+    display: block;
+    width: 4%;
+    height: 6px;
+    fill-rule: evenodd;
+    fill: rgb(57, 132, 243);
+    margin: 40px auto 80px auto;
+}
+
+.experience__text {
+    display: block;
+    width: 57%;
+    margin: 0 auto 150px auto;
+    text-align: center;
+    color: #182c4c;
+
+    font-family: 'NunitoSansRegular';
+    font-size: 26px;
+    line-height: 50px;
+    letter-spacing: .5px;
+}

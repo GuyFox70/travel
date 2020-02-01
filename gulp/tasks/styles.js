@@ -8,6 +8,7 @@ const configCss = [
     './src/css/videos.css',
     './src/css/small_video.css',
     './src/css/travel_categories.css',
+    './src/css/experience.css',
     './src/css/traveller.css',
     './src/css/media.css'
 ]
