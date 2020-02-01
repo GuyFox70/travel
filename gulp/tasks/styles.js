@@ -10,6 +10,7 @@ const configCss = [
     './src/css/travel_categories.css',
     './src/css/experience.css',
     './src/css/traveller.css',
+    './src/css/book.css',
     './src/css/media.css'
 ]
 

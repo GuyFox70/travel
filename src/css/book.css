@@ -1,0 +1,79 @@
+.book {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("../img/montain.png") no-repeat center;
+    background-size: cover;
+}
+
+.book__see-you {
+    display: block;
+    margin-top: 310px;
+    color: #fff;
+
+    font-family: 'NunitoSansSemiBold';
+    font-size: 39px;
+    line-height: 48px;
+    letter-spacing: .96px;
+}
+
+.book__enjoy {
+    display: flex;
+    margin-top: 30px;
+    color: #fff;
+
+    font-family: 'NunitoSansExtraBold';
+    font-size: 60px;
+    line-height: 76px;
+    letter-spacing: 1.5px;
+}
+
+.book__form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 310px;
+}
+
+.book__form__choose {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 23%;
+    background: rgba(255, 255, 255, .25);
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.book__form__choose > span {
+    font-family: 'NunitoSansSemiBold';
+    font-size: 24px;
+    line-height: 45px;
+    letter-spacing: .45px;
+    color: #fff;
+}
+
+.book__form__choose .svg {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.book__form__button {
+    width: 23%;
+    outline: 0;
+    border: 0;
+    background: #3984f3;
+    color: #fff;
+    cursor: pointer;
+
+    font-family: 'NunitoSansSemiBold';
+    font-size: 23px;
+    line-height: 45px;
+    letter-spacing: .45px;
+}
