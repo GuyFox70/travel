@@ -19,7 +19,7 @@
 }
 
 .book__enjoy {
-    display: flex;
+    display: block;
     margin-top: 30px;
     color: #fff;
 
@@ -31,7 +31,6 @@
 
 .book__form {
     display: flex;
-    flex-wrap: wrap;
     width: 75%;
     justify-content: space-between;
     margin-top: 100px;

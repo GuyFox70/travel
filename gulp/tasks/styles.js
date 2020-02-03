@@ -11,6 +11,7 @@ const configCss = [
     './src/css/experience.css',
     './src/css/traveller.css',
     './src/css/book.css',
+    './src/css/bottom.css',
     './src/css/media.css'
 ]
 
