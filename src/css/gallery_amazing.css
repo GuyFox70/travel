@@ -5,8 +5,8 @@
 }
 
 .gallery-amazing__slider {
-   display: flex;
-   margin-left: -1%;
+    display: flex;
+    margin-left: -15%;
 }
 
 .gallery-amazing__image {
@@ -28,8 +28,10 @@
     position: relative;
 }
 
-.gallery-amazing__image .container > p,
-.gallery-amazing__image > p {
+.gallery-amazing__image .container .name-tour,
+.gallery-amazing__image .name-tour {
+    padding-right: 5px;
+    box-sizing: border-box;
     z-index: 2;
     position: absolute;
     bottom: 4%;
@@ -98,6 +100,7 @@
     fill: rgb(160, 160, 160);
     margin-right: 65px;
     cursor: pointer;
+    transition: opacity .3s ease;
 }
 
 .gallery-amazing__arrows__right {
@@ -105,6 +108,16 @@
     height: 28px;
     fill-rule: evenodd;
     fill: rgb(160, 160, 160);
+    cursor: pointer;
+    transition: opacity .3s ease;
+}
+
+.gallery-amazing__arrows__left:hover,
+.gallery-amazing__arrows__right:hover {
     opacity: 0.5;
+    transition: opacity .3s ease;
+}
+
+.star {
     cursor: pointer;
 }
